@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "testing:block/scheming-emoticon-villain-rubbing-his-hands-128099137_2",
+    "up": "testing:block/scheming-emoticon-villain-rubbing-his-hands-128099137_2",
+    "north": "testing:block/scheming-emoticon-villain-rubbing-his-hands-128099137_2",
+    "east": "testing:block/scheming-emoticon-villain-rubbing-his-hands-128099137_2",
+    "south": "testing:block/scheming-emoticon-villain-rubbing-his-hands-128099137_2",
+    "west": "testing:block/scheming-emoticon-villain-rubbing-his-hands-128099137_2",
+    "particle": "testing:block/scheming-emoticon-villain-rubbing-his-hands-128099137_2"
+  },
+  "render_type": "solid"
+}
