@@ -1,27 +1,9 @@
 {
-  "mod_elements": [
-    {
-      "name": "Bubba",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bubba",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/testing/blockstates/bubba.json",
-          "src/main/java/net/mcreator/testing/block/BubbaBlock.java",
-          "src/main/resources/assets/testing/models/item/bubba.json",
-          "src/main/resources/assets/testing/models/block/bubba.json"
-        ]
-      }
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "block.testing.bubba": "Bubba"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",
