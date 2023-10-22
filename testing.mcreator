@@ -1,0 +1,48 @@
+{
+  "mod_elements": [
+    {
+      "name": "Bubba",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bubba",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/testing/blockstates/bubba.json",
+          "src/main/java/net/mcreator/testing/block/BubbaBlock.java",
+          "src/main/resources/assets/testing/models/item/bubba.json",
+          "src/main/resources/assets/testing/models/block/bubba.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.testing.bubba": "Bubba"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "testing",
+    "modName": "Testing",
+    "version": "1.0.0",
+    "author": "jbg17, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.testing",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}
