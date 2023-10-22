@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "testing:block/img_8941",
+    "up": "testing:block/img_8941",
+    "north": "testing:block/img_8941",
+    "east": "testing:block/img_8941",
+    "south": "testing:block/img_8941",
+    "west": "testing:block/img_8941",
+    "particle": "testing:block/img_8941"
+  },
+  "render_type": "solid"
+}

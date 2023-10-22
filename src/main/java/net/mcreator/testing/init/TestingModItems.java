@@ -16,6 +16,7 @@ import net.mcreator.testing.TestingMod;
 
 public class TestingModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, TestingMod.MODID);
+	public static final RegistryObject<Item> BUBBA_2 = block(TestingModBlocks.BUBBA_2);
 	public static final RegistryObject<Item> BUBBA = block(TestingModBlocks.BUBBA);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {

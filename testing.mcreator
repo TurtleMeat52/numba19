@@ -3,6 +3,7 @@
     {
       "name": "Bubba",
       "type": "block",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bubba",
@@ -14,12 +15,29 @@
           "src/main/resources/assets/testing/models/block/bubba.json"
         ]
       }
+    },
+    {
+      "name": "Bubba2",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bubba_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/testing/blockstates/bubba_2.json",
+          "src/main/resources/assets/testing/models/block/bubba_2.json",
+          "src/main/java/net/mcreator/testing/block/Bubba2Block.java",
+          "src/main/resources/assets/testing/models/item/bubba_2.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.testing.bubba_2": "Bubba 2",
       "block.testing.bubba": "Bubba"
     }
   },

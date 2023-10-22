@@ -11,9 +11,11 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.testing.block.BubbaBlock;
+import net.mcreator.testing.block.Bubba2Block;
 import net.mcreator.testing.TestingMod;
 
 public class TestingModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, TestingMod.MODID);
+	public static final RegistryObject<Block> BUBBA_2 = REGISTRY.register("bubba_2", () -> new Bubba2Block());
 	public static final RegistryObject<Block> BUBBA = REGISTRY.register("bubba", () -> new BubbaBlock());
 }
